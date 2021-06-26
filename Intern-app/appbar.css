@@ -1,0 +1,95 @@
+.app-bar {
+    height: 50px;
+    width: 100%;
+    /* background: aquamarine; */
+    background-color: #dfe6e9;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.icon {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.options {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.options div {
+    height: 100%;
+    width: 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #636e72;
+}
+
+.options :hover {
+    color: #2d3436;
+}
+
+.login-signup {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #636e72;
+    ; }
+
+.login-signup div:hover {
+    color: #2d3436;
+}
+
+.login-signup div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17%;
+}
+
+@media (max-width: 960px) {
+    .login-signup {
+        display: none;
+    }
+
+    .options {
+        display: none;
+    }
+
+    .menu-icon {
+        display: flex;
+        width: 50%;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 1.6rem;
+        position: relative;
+    }
+
+    .menu-icon i {
+        display: flex;
+        height: 100%;
+        width: 25%;
+        position: absolute;
+        align-items: center;
+    }
+}
